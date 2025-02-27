@@ -25,19 +25,19 @@ export const Navbar = () => {
 
           {/* Menú de escritorio */}
           <div className="navbar-menu-desktop">
-            <a href="#" className="menu-item">
+            <a href="/#" className="menu-item">
               Inicio
             </a>
-            <a href="#aboutMe" className="menu-item">
+            <a href="/#aboutMe" className="menu-item">
               Sobre Mí
             </a>
-            <a href="#myService" className="menu-item">
+            <a href="/#myService" className="menu-item">
               Mis Servicios
             </a>
-            <a href="#project" className="menu-item">
+            <a href="/#project" className="menu-item">
               Mis proyectos
             </a>
-            <a href="#customerReviews" className="menu-item">
+            <a href="/#customerReviews" className="menu-item">
               Opiniones de clientes
             </a>
             <a href="/contact" className="menu-item contact-button">
@@ -85,22 +85,22 @@ export const Navbar = () => {
       {/* Menú móvil */}
       {isMenuOpen && (
         <div className="navbar-menu-mobile">
-          <a href="/" className="menu-item-mobile">
+          <a href="/#" className="menu-item">
             Inicio
           </a>
-          <a href="/articulos" className="menu-item-mobile">
-            Artículos
-          </a>
-          <a href="/categorias" className="menu-item-mobile">
-            Categorías
-          </a>
-          <a href="/sobre-mi" className="menu-item-mobile">
+          <a href="/#aboutMe" className="menu-item">
             Sobre Mí
           </a>
-          <a
-            href="/contacto"
-            className="menu-item-mobile contact-button-mobile"
-          >
+          <a href="/#myService" className="menu-item">
+            Mis Servicios
+          </a>
+          <a href="/#project" className="menu-item">
+            Mis proyectos
+          </a>
+          <a href="/#customerReviews" className="menu-item">
+            Opiniones de clientes
+          </a>
+          <a href="/contact" className="menu-item contact-button">
             Contacto
           </a>
         </div>
