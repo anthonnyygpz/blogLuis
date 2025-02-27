@@ -4,8 +4,6 @@ import { Send } from "lucide-react";
 import { DefaultLayout } from "./defaultLayout";
 
 export default function ContactForm() {
-  // const [isSubmitting, setIsSubmitting] = useState(false);
-  // const [isSubmitted, setIsSubmitted] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [asunt, setAsunt] = useState("");
@@ -82,25 +80,25 @@ export default function ContactForm() {
               <button
                 type="submit"
                 className="button-submit"
-                disabled={isSubmitting}
+                // disabled={isSubmitting}
               >
-                {isSubmitting ? (
-                  "Enviando..."
-                ) : (
-                  <>
-                    Enviar mensaje <Send className="ml-2 h-4 w-4" />
-                  </>
-                )}
+                {/* {isSubmitting ? ( */}
+                {/*   "Enviando..." */}
+                {/* ) : ( */}
+                {/*   <> */}
+                Enviar mensaje <Send className="ml-2 h-4 w-4" />
+                {/*   </> */}
+                {/* )} */}
               </button>
             </form>
           </div>
-          {isSubmitted && (
-            <div className="bg-green-50 text-green-700 rounded-b-lg">
-              <p className="text-center w-full">
-                ¡Gracias por tu mensaje! Te responderé pronto.
-              </p>
-            </div>
-          )}
+          {/* {isSubmitted && ( */}
+          {/*   <div className="bg-green-50 text-green-700 rounded-b-lg"> */}
+          {/*     <p className="text-center w-full"> */}
+          {/*       ¡Gracias por tu mensaje! Te responderé pronto. */}
+          {/*     </p> */}
+          {/*   </div> */}
+          {/* )} */}
         </div>
       </div>
     </DefaultLayout>
