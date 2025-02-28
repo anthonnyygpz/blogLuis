@@ -1,6 +1,6 @@
 "use client";
 import { FormEvent, useState } from "react";
-import { Send } from "lucide-react";
+// import { Send } from "lucide-react";
 import { DefaultLayout } from "./defaultLayout";
 
 export default function ContactForm() {
@@ -86,7 +86,7 @@ export default function ContactForm() {
                 {/*   "Enviando..." */}
                 {/* ) : ( */}
                 {/*   <> */}
-                Enviar mensaje <Send className="ml-2 h-4 w-4" />
+                Enviar mensaje
                 {/*   </> */}
                 {/* )} */}
               </button>
