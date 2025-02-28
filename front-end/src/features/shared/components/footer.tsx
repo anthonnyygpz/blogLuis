@@ -1,4 +1,3 @@
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function Footer() {
@@ -72,28 +71,28 @@ export function Footer() {
                 to="#"
                 className="text-muted-foreground hover:text-foreground"
               >
-                <Facebook className="h-5 w-5" />
+                {/* <Facebook className="h-5 w-5" /> */}
                 <span className="sr-only">Facebook</span>
               </Link>
               <Link
                 to="#"
                 className="text-muted-foreground hover:text-foreground"
               >
-                <Twitter className="h-5 w-5" />
+                {/* <Twitter className="h-5 w-5" /> */}
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
                 to="#"
                 className="text-muted-foreground hover:text-foreground"
               >
-                <Instagram className="h-5 w-5" />
+                {/* <Instagram className="h-5 w-5" /> */}
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link
                 to="#"
                 className="text-muted-foreground hover:text-foreground"
               >
-                <Linkedin className="h-5 w-5" />
+                {/* <Linkedin className="h-5 w-5" /> */}
                 <span className="sr-only">LinkedIn</span>
               </Link>
             </div>
